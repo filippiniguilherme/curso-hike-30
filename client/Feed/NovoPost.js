@@ -3,7 +3,10 @@ Template.NovoPost.events({
         evento.preventDefault();
         var textoDoFormulario = evento.target.texto.value;
 
-        Meteor.call("inserirPost", textoDoFormulario);
+        Posts.insert({
+            texto: textoDoFormulario,
+            idDoAutor: Meteor.userId()
+        });
 
         evento.target.texto.value = "";
     }
