@@ -21,8 +21,11 @@
 	          {{#if currentUser}}
 	          <li><a href="/feed">Feed</a></li>
 	          {{/if}}
-	          <li>{{> atNavButton}}</li>
-	        </ul>        
+	        </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		         <li>{{> atNavButton}}</li>
+      		  </ul>
+      		  {{> Pesquisa}}       
 	      </div><!-- /.navbar-collapse -->
 	    </div><!-- /.container-fluid -->
 	  </nav>
