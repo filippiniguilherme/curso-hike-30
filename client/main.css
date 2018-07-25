@@ -1,4 +1,8 @@
 /* CSS declarations go here */
+body {
+	background-color: #d8d8d8;
+}
+
 .tt-query,
 .tt-hint {
   width: 396px;
@@ -56,3 +60,5 @@
 .tt-suggestion p {
   margin: 0;
 }
+
+
