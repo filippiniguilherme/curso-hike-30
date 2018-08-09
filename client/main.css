@@ -60,5 +60,12 @@ body {
 .tt-suggestion p {
   margin: 0;
 }
-
-
+.fa {
+  font-size: 25px;
+}
+.botao-curtir {
+  color: red;
+}
+.botao-descurtir{
+  color:red;
+}

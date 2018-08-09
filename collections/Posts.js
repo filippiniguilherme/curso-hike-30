@@ -25,5 +25,13 @@ Meteor.methods({
                 curtidas: Meteor.userId()
             }
         });
+    },
+    "removerPost": function(idDoPost) {
+        var post = Posts.findOne({_id: idDoPost});
+        var idDoAutor = post.idDoAutor;
+        if(idDoAutor === Meteor.userId()) {
+            Posts.remove(idDoPost);
+        }
+
     }
 });    
