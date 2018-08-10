@@ -76,3 +76,9 @@ body {
   width: auto;
   height: auto;
 }
+.link-para-perfil{
+  color: black;
+}
+.link-para-perfil:hover{
+  color: black;
+}
