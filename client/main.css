@@ -69,3 +69,10 @@ body {
 .botao-descurtir{
   color:red;
 }
+.navbar{
+  background-color: #ffffff;
+}
+.navbar-brand {
+  width: auto;
+  height: auto;
+}
